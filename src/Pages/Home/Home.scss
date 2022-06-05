@@ -1,0 +1,12 @@
+.homepage{
+    background-color: #171B1D;
+    overflow-x: hidden;
+    overflow-y: auto;
+    .flowMapContainer{
+        padding-top: 10rem;
+    }
+    .reactFlow{
+        height: 800px;
+        width: 100vw;
+    }
+}

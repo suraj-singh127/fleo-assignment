@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap');
+
+.companyCard{
+    width: 98%;
+    height: 100%;
+    background: linear-gradient(#2e2eb1,#74363c,#000000);
+    margin-bottom: 1rem;
+    padding: 0.3rem;
+    .companyTitle{
+        font-family: 'Poppins','San-serif';
+        color: white;
+        h3{
+            font-size: 1.5rem;
+        }
+    }
+
+    .info{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .companySales{
+            font-size: 14px;
+            color: white;
+            font-family: 'Poppins','Sans-serif';
+            text-align: left;
+        }
+    }
+
+   
+    .health{
+        position: relative;
+        width: 100%;
+        height: 20px;
+        border: 1px solid transparent;
+    }
+}
