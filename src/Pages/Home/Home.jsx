@@ -2,8 +2,8 @@ import { useCallback,useState } from "react";
 import ReactFlow, { addEdge, applyEdgeChanges, applyNodeChanges } from 'react-flow-renderer';
 import './Home.scss';
 import Navbar from "../../components/Navbar/Navbar";
-import initialNodes from './nodes.js';
-import initialEdges from './edges.js';
+import initialNodes from '../nodes/nodes.js';
+import initialEdges from '../edges/edges.js';
 
 const Home = () =>{
 
@@ -21,8 +21,8 @@ const Home = () =>{
       const onConnect = useCallback(
         (connection) => setEdges((eds) => addEdge(connection, eds)),
         [setEdges]
-      );
-    
+    );
+
     const zoomLevel = 0.65;
     return(
         <div className="homepage">
